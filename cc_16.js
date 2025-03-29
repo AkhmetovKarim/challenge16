@@ -66,3 +66,9 @@ function displayProducts(products) {
         container.appendChild(productDiv);
     });
 }
+
+//Task 5
+function handleError(error) {
+    console.error("An error occured:", error.message);
+}
+
